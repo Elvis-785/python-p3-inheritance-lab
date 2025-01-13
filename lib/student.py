@@ -8,6 +8,6 @@ class Student(User):
         self.knowledge = []
     
     def learn(self, knowledge_str):
-        self.knowledge.append(knowledge_str)
+        return self.knowledge.append(knowledge_str)
 
 
